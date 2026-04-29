@@ -21,8 +21,8 @@
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
     "editor.hover.delay": 1500,
-    "editor.hover.enabled": true,
-    "editor.matchBrackets": "never",
+    "editor.hover.enabled": "on",
+    "editor.matchBrackets": "always",
     "workbench.tips.enabled": false,
     "editor.colorDecorators": false,
     "git.decorations.enabled": false,
@@ -43,10 +43,10 @@
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
 
     // Typography
-    "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
+    "editor.fontFamily": "Monaspace Neon",
     "editor.suggestFontSize": 16,
-    "editor.suggestLineHeight": 30,
-    "terminal.integrated.lineHeight": 1.5,
+    "editor.suggestLineHeight": 16,
+    "terminal.integrated.lineHeight": 1,
     "terminal.integrated.fontSize": 16,
 
     "search.useIgnoreFiles": false,
@@ -142,7 +142,7 @@
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
     "diffEditor.wordWrap": "on",
     "notebook.output.wordWrap": true,
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "editor.minimap.maxColumn": 250,
     "codesnap.containerPadding": "8em",
     "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
@@ -164,9 +164,9 @@
     "codesnap.showLineNumbers": true,
     "codesnap.roundedCorners": true,
     "editor.padding.top": 16,
-    "editor.cursorBlinking": "solid",
+    "editor.cursorBlinking": "smooth",
     "editor.stickyScroll.enabled": false,
-    "editor.lineHeight": 32,
+    "editor.lineHeight": 18,
 
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -189,13 +189,8 @@
             }
           ]
     },
-    "material-icon-theme.saturation": 0,
-    "vscode_custom_css.imports": [
-        "file:///home/aalto/.vscode-oss/custom/customCss.css",
-        "file:///home/aalto/.vscode-oss/custom/customJs.js"
-    ],
     "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "workbench.iconTheme": "catppuccin-mocha",
     "workbench.sideBar.location": "right",
     "material-icon-theme.files.color": "#42a5f5",
     "workbench.tree.enableStickyScroll": false,
@@ -204,8 +199,10 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorStyleInactive": "line",
     "terminal.integrated.defaultProfile.linux": "fish",
-    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "Monaspace Neon",
     "workbench.settings.applyToAllProfiles": [
         "terminal.integrated.fontFamily"
     ],
+    "tizen.workspace.path": "/home/aalto/workspace",
+    "editor.cursorSmoothCaretAnimation": "on",
 }
